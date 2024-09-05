@@ -1,15 +1,17 @@
 {
-  "name": "solved",
+  "name": "track-your-employees",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A way to track those in your employ",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Ethan Verellen",
+  "license": "",
   "dependencies": {
+    "console.table": "^0.10.0",
     "express": "^4.17.1",
+    "inquirer": "^8.2.4",
     "pg": "^8.11.3"
   }
 }
