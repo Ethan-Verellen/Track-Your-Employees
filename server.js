@@ -108,7 +108,7 @@ VALUES ('${data.fname}', '${data.lname}', ${data.mid}, '${data.rid}');`;
         pool.end();
         })
     } else if (tye == 'update an employee role') {
-        console.log('7')
+        console.log('this does not work, sorry')
         inquirer.prompt([ 
             {
             type: 'input',
